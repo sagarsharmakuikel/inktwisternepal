@@ -1,0 +1,703 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.hero-content p {
+    margin: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 3rem 2rem;
+}
+
+.about-content, .about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+/* What We Offer Section */
+.offer-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.offer-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+}
+
+.offer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.offer-point {
+    flex: 1 1 250px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.offer-point:hover {
+    transform: translateY(-5px);
+}
+
+.offer-point .emoji {
+    font-size: 2rem;
+}
+
+.offer-point h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+}
+
+.offer-point p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.shop-now {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff; /* Optional: background color for the header */
+    padding: 0.5rem 2rem; /* Top/bottom and left/right padding */
+    border-bottom: 1px solid #ddd; /* Optional: adds a subtle border under the header */
+}
+
+nav {
+    display: flex; /* Align items in a row */
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Vertically align items in the center */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex; /* Arrange nav items in a row */
+    list-style: none; /* Remove bullets from list */
+    gap: 2rem; /* Creates even spacing between nav items */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray color for links */
+    font-weight: 600; /* Bold text */
+    font-size: 1rem; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.nav-links li a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff; /* Optional: background color for the header */
+    padding: 0.5rem 2rem; /* Top/bottom and left/right padding */
+    border-bottom: 1px solid #ddd; /* Optional: adds a subtle border under the header */
+}
+
+nav {
+    display: flex; /* Align items in a row */
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Vertically align items in the center */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    display: flex; /* Arrange nav items in a row */
+    list-style: none; /* Remove bullets from list */
+    gap: 2rem; /* Creates even spacing between nav items */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark gray color for links */
+    font-weight: 600; /* Bold text */
+    font-size: 1rem; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.nav-links li a:hover {
+    color: #007bff; /* Change link color on hover */
+}.image-container {
+    width: 100%; /* Adjust this as needed */
+    max-width: 400px; /* Optional: set a max width */
+    aspect-ratio: 4 / 3; /* Replace 4/3 with your desired ratio */
+    overflow: hidden;
+    position: relative;
+}/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin: 0 0 1rem;
+}
+
+.hero-content .emoji img {
+    width: 23px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.description p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    color: #555;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.description p strong {
+    color: #007bff;
+}
+
+.description p::before {
+    content: "“";
+    font-size: 2rem;
+    color: #ff5733;
+    vertical-align: middle;
+}
+
+.description p::after {
+    content: "”";
+    font-size: 2rem;
+    color: #ff5733;
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+
+.responsive-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+    object-position: center; /* Centers the image within the container */
+}
+/* General Section Styling */
+.projects {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Gallery Container */
+.project-gallery {
+    display: flex;
+    justify-content: space-between; /* Evenly spaced items */
+    gap: 1.5rem; /* Space between columns */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+/* Individual Project Cards */
+.project-card {
+    flex: 1 1 calc(33.33% - 1rem); /* Each card takes one-third of the row minus gap */
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image Styling */
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Card Text */
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Hover Effects */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-card {
+        flex: 1 1 calc(50% - 1rem); /* Two cards per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+/* About Us Section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.about-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.about-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.about-content h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 1.5rem;
+    padding: 0;
+}
+
+.about-content ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.cta-buttons {
+    margin-top: 1.5rem;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        text-align: center;
+    }
+}
+.instagram {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.instagram h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.instagram p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+.instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 images per row */
+    gap: 20px; /* Space between photos */
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.instagram-gallery img {
+    width: 200px; /* Fixed uniform width */
+    height: 200px; /* Fixed uniform height */
+    border-radius: 50%; /* Ensures circular shape */
+    object-fit: cover; /* Ensures content fits inside the circle */
+    object-position: center; /* Centers the image content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.instagram-gallery img:hover {
+    transform: scale(1.2); /* Enlarges image slightly on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adds stronger shadow on hover */
+}
+* Chatbox */
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Align to the bottom left */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Chat Popup */
+.chat-popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 90px;
+    left: 20px; /* Position to the left */
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    z-index: 1000;
+    text-align: left; /* Align all text to the left */
+}
+
+.chat-popup h2 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.chat-popup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.chat-popup input,
+.chat-popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.contact-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-input span {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-input input {
+    flex: 1;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Go to Top Button */
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Align to the bottom right */
+    z-index: 1000;
+}
+
+.go-to-top .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
